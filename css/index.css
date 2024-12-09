@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Coalition";
+    src: url(../fonts/Coalition_v2.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Earth Orbiter";
+    src: url(../fonts/earthorbiter.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.otf) format("opentype");
+}
+h1,h2,h3{
+    font-family: Coalition !important;
+}
+h4,h5{
+    font-family: Montserrat !important;
+}
+:root{
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+}
+body{
+    font-family: Montserrat !important;
+    font-size: medium;
+    font-weight: 300;
+    color: var(--light);
+    overflow-x: hidden;
+
+}
+.bg-dark{ 
+    background-color: var(--dark) !important;
+}
+.bg-dark-x{
+    background-color: var(--dark-x);
+}
+.c-light{
+    color: var(--light) !important;
+}
+#Login_container{
+    text-align: center;
+}
+.form_control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.img-1{
+    background-image: url('../images/fading1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img-2{
+    background-image: url('../images/portada.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.rojillos2{
+    overflow: hidden;
+}
+.all_extras{
+width:33%;
+float: left;
+}
+.boton{
+    width:50%;
+}
+.error{
+    color:red;
+}
+.divSelectOpci{
+    width:33%;
+    padding: 0px 10px 0px 10px;
+    border:0.5px solid white;
+}
+.opciones1{
+    max-width: 21%;
+}
+.surgry_img{
+    width:100%;
+}
+.roxane{
+    text-align: left;
+    padding:0px 20px 0px 20px;
+}
+.doctor{
+    padding-top: 10px;
+}
+.imagenes{
+    padding:20px 0px 0px 0px;
+}
+.library{
+    width:100%;
+    padding:0px 20px 0px 20px;
+}
+.file1{
+    width:100%;
+}
+.botones_mapa:hover{
+    opacity:0.2;
+    cursor: pointer;
+}
+.txt_div_ruta{
+    float:left;
+    width:60%;
+    text-align: left;
+}
+.img_delete_div{
+    float:right;
+    width:40%; 
+}
+.clear_both{
+    clear: both;
+}
+.centMargin{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.divAnimation{
+    position: absolute;
+    z-index: -1;
+    top : 0;
+    left:0;
+}
+.container{
+    background-color: transparent;
+}
+.floatLeft{
+    float:left;
+}
+.peque{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
